@@ -21,8 +21,7 @@ const Home = () => {
           <Divider />
           <CardActions style={{ color: "mediumblue" }}>
             {/* Change a tag to Link */}
-            <Link to={`/Car/${idx}`}>See More Details</Link>
-            <a>See more Details</a>
+            <Link to={`/car/${car.id}`}>See more Details</Link>
           </CardActions>
         </Card>
       ))}
